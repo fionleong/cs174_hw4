@@ -1,0 +1,19 @@
+{
+	"name": "fionmadhuri/Hw4",
+	"type": "project",
+	"require": {
+		"simpletest/simpletest": "^1.1"
+	}
+	"authors": [
+	    {
+		"name": "Madhuri Jujare",
+		"name": "Fion Leong"
+	    }
+	],
+	"autoload": {
+	    "psr-4": {
+		"fionmadhuri\\Hw4\\": ["src/"],
+		"fionmadhuri\\Hw4\\tests\\": ["tests/"]
+	    }
+	}
+}
